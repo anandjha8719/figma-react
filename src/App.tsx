@@ -1,5 +1,3 @@
-// @ts-ignore
-import logo from "./logo.svg";
 import { Input, Navbar, Sidebar } from "./components";
 import { svgs } from "./assets";
 // @ts-ignore
