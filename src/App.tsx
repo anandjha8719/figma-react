@@ -34,7 +34,7 @@ const App = () => {
   const handleSearch = async (value: string) => {
     try {
       const res = await axios({
-        url: `https://tva.staging.b2brain.com/search/autocomplete_org_all/?q=${value}`,
+        url: `https://staging.staging.b2brain.com/search/autocomplete_org_all/?q=${value}`,
         method: "GET",
       });
 

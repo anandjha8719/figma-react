@@ -165,7 +165,7 @@ const Dashboard: React.FC<Props> = ({ result, setResult }) => {
                   {company.logo ? (
                     <Img src={company.logo} alt="" />
                   ) : (
-                    <AltLogo>H</AltLogo>
+                    <AltLogo>{svgs.dp}</AltLogo>
                   )}
                 </div>
                 <div>

@@ -139,7 +139,7 @@ export const Sidebar: React.FC<Props> = ({ setShowSidebar, showSidebar }) => {
           <Li>
             <a href="#">
               <Dropdown
-                items={["Manage All", "Track new Accounts", "Bulk Import"]}
+                items={["item 1", "item 2", "item 3"]}
               >
                 <div>
                   <img src={svgs.building} alt="" />
@@ -156,7 +156,7 @@ export const Sidebar: React.FC<Props> = ({ setShowSidebar, showSidebar }) => {
           <Li>
             <a href="#">
               <Dropdown
-                items={["Product Focus", "Intel Preferences", "Lead Persona"]}
+                items={["Requirement1 ", "Requirement 2", "Requirement 3"]}
               >
                 <div>
                   <img src={svgs.cog} alt="" />
